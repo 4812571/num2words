@@ -1,0 +1,5 @@
+project: thefuzz
+target: ratio
+cmds:
+  - cmd: /num2words/mayhem/fuzz.py
+    libfuzzer: true
